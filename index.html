@@ -11,22 +11,65 @@
 
 </head>
 <body>
-    <header class="header container">
-        <img src="img/logo/logo.svg" alt="Logo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Discover</a></li>
-                <li><a href="index.html">Contact us</a></li>
-                <li><a href="index.html">Sign in</a></li>
-            </ul>
-        </nav>
-        <div class="header-button">
-            <a href="index.html" class="button">Sell Something</a>
+    <header class="header">
+        <div class="header-div container">
+            <a href="index.html"><img src="img/logo/logo.svg" alt="Logo" class="logo"></a>
+            <nav class="navbar">
+                <ul class="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Discover</a></li>
+                    <li><a href="index.html">Contact us</a></li>
+                    <li><a href="index.html">Sign in</a></li>
+                </ul>
+            </nav>
+            <button class="header-button" type="submit">Sell Something</button>  <!--no specific function for button  -->
         </div>
     </header>
-    <section class="container">
-        
-    </section>
+    <main class="main-container container">
+        <aside class="sidebar">
+            <h4>Location</h4>
+            <select>
+                <option>All Kenya</option>
+            </select>
+
+            <h4>Property</h4>
+            <div class="checkbox-property">
+                <label><input type="checkbox" /> Houses & Apartments for Rent</label>
+                <label><input type="checkbox" /> Houses & Apartments for Sale</label>
+                <label><input type="checkbox" /> Land & Plots for Rent</label>
+                <label><input type="checkbox" /> Land & Plots for Sale</label>
+                <label><input type="checkbox" /> Commercial Property for Rent</label>
+                <label><input type="checkbox" /> Commercial Property for Sale</label>
+                <label><input type="checkbox" checked /> Event Centres, Venues & Worksta</label>
+                <label><input type="checkbox" /> Short Let Property</label>
+                <label><input type="checkbox" />Land & Plots for Sale</label>
+                <label><input type="checkbox" /> Commercial Property for Rent</label>
+                
+            </div>
+
+            <h4>Price range</h4>
+            <div class="checkbox-price">
+                <label><input type="checkbox" /> Under 13K</label>
+                <label><input type="checkbox" /> 13 - 160K</label>
+                <label><input type="checkbox" checked /> 160K - 6M</label>
+                <label><input type="checkbox" /> 6 - 55M</label>
+                <label><input type="checkbox" /> 55M - 100M</label>
+            </div>
+        </aside>
+
+        <section class="main-section">
+            
+                <h1>Find the house you want easily</h1>
+                <p>Buy, sell, rent or lease on just one platform</p>
+            
+                <form action="" class="search-form">
+                <input type="text" placeholder="Search..." />
+                <button type="submit"><img src="img/logo/search.svg" alt="search icon"></button>
+                </form>
+        </section>
+    </main>
+    <footer class="footer-container">
+
+    </footer>
 </body>
 </html>
