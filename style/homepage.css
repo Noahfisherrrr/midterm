@@ -114,12 +114,12 @@ a {
     cursor: pointer;
 }
 .checkbox-property {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 .checkbox-price {
     display: flex;
