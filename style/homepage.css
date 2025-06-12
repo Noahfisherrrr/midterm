@@ -390,7 +390,7 @@ a {
     font-weight: 400;
     font-size: 14px;
 }
-.ft-navlist a{
+.ft-navlist a {
     color: #FFFFFF;
 }
 .mailto {
@@ -420,4 +420,23 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
+}
+/* Media */
+/* Laptop Screen */
+@media (min-width: 1024px) and (max-width: 1640px) {
+    
+    .header{
+        padding: 0 40px;
+    }
+    .prop-container {
+       padding: 0 40px;
+
+    }
+    .similar-ads {
+        padding: 0 40px;
+
+    }
+    .footer-container {
+        padding: 0 40px;
+    }
 }

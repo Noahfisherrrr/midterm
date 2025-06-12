@@ -207,9 +207,7 @@ a {
     justify-content: space-between;
     border-bottom: 1px solid #ECECEC;
     padding:24px 40px 24px;
-
 }
-
 .details-container {
     display: flex;
     flex-direction: column;
@@ -448,9 +446,7 @@ a {
     margin: 120px auto 0;
     background-color: #29B24E;
     border-radius: 25px;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
+   
 }
 .ft-nav-soc{
     display: flex;
@@ -506,4 +502,128 @@ a {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
+}
+/* Media */
+/* Laptop Screen */
+@media (min-width: 1024px) and (max-width: 1640px) {
+    
+    .header{
+        padding: 0 40px;
+    }
+    .prop-container {
+       padding: 0 40px;
+
+    }
+    .similar-ads {
+        padding: 0 40px;
+
+    }
+    .footer-container {
+        padding: 0 40px;
+    }
+}
+/* Tablet Screen */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 20px;
+  }
+
+  .prop-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .image-section,
+  .details-sec {
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    min-height: auto;
+  }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .ft-nav-soc {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ft-navlist {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+/* Mobile Screen */
+@media (max-width: 768px) {
+    .header-div {
+        display: none;
+    }
+    .prop-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-section {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 20px;
+    }
+    .image-section img {   
+        min-height: 316px;
+        object-fit: cover;
+    }
+    .info-head {
+        padding: 20px 20px;
+    }
+    .description-section {
+        padding: 20px 20px;
+    }
+    .appartment-info {
+        padding: 20px 20px;
+        overflow-y: hidden;
+        align-items: center;
+    }
+    .details {
+        padding: 20px 20px;
+        display: block;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .details-container {
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        max-width: 100%;
+        width: 100%;
+        padding: 0%;
+    }
+    .det-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .title {
+        display: flex;
+        justify-content: start;
+    }
+    .result {
+        display: flex;
+        justify-content: end;
+    }
+   
+
 }
