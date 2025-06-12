@@ -604,8 +604,6 @@ a {
     }
     .details-container {
         flex-direction: column;
-        /* justify-content: space-between; */
-        /* align-items: center; */
         max-width: 100%;
         width: 100%;
         padding: 0%;
@@ -624,6 +622,68 @@ a {
         display: flex;
         justify-content: end;
     }
-   
+    .price-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+    .price-container {
+        display: block;
+        width: 100%;
+        align-items: center;
+        padding: 20px 20px;
+    }
+   .price-amount {
+        font-size: 24px;
+    }
+    .month {
+        font-size: 12px;
+    }
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 20px;
+    }
+    .contact-call {
+        order: 1;
+        width: 100%;
+        max-width: 100%;
+        padding: 13px 26px;
+        margin-top: 16px;
+    }
+    .contact-mail {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        padding: 13px 26px;
+    }
+    .similar-ads {
+        padding: 0 20px;
+    }
+    .property-link:nth-child(1) {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
 
+    }
+    .property-link:nth-child(2){
+       display: none;
+
+    }.property-link:nth-child(3) {
+       display: none;
+
+    }
+    .property-link:nth-child(4) {
+         display: none;
+    }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+    
 }
