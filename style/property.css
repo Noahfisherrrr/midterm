@@ -246,10 +246,71 @@ a {
 .det-box ul li {
     line-height: 26px;  
 }
-
-
-
-
+.price-section {
+    display: flex;
+}
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    max-width:393px;
+    width: 100%;
+    padding: 24px 40px;
+}
+.price-amount {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #29B24E;
+}
+.month{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    max-width:393px;
+    width: 100%;
+    padding: 24px 40px;
+}
+.contact-mail {
+    color:#29B24E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #29B24E;
+    border-radius: 12px;
+    padding: 13px 26px;
+    cursor: pointer;   
+}
+.contact-mail:hover {
+    background-color: #29B24E;
+    color: #FFFFFF;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.contact-call{
+    color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #29B24E;
+    border: none;
+    border-radius: 12px;
+    padding: 13px 26px;
+    cursor: pointer;   
+}
+.contact-call:hover {
+    background-color: #1F8A3C;
+    transition: background-color 0.5s ease;
+    color: #FFFFFF;
+}
 
 /* Card Section */
 .similar-ads {
