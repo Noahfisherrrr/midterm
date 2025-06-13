@@ -532,9 +532,22 @@ a {
         height: 44px;
         border-radius: 50%;
         box-shadow: 0px 4px 25px #C2C2C24F;
+        transition: width 1.5s ease, border-radius 1s ease;
+        transform-origin: right center;
+    }
+    .search-form:hover {
+        max-width: 245px;
+        width: 100%;
+        border-radius: 10px;
     }
     .search-form input {
         display: none;
+    }
+    .search-form:hover input {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        font-size: 14px;
     }
     .sidebar {
         order: 2;   
