@@ -661,9 +661,16 @@ a {
     }
     .contact-mail {
         order: 2;
+        background-color: #29B24E;
+        color: #ffffff;
         width: 100%;
         max-width: 100%;
         padding: 13px 26px;
+    }
+    .contact-mail:hover {
+        background-color: #1F8A3C;
+        color: #FFFFFF;
+        transition: background-color 0.5s ease, color 0.5s ease;
     }
     .similar-ads {
         padding: 0 20px;
